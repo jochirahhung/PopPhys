@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <div ng-app="">
+            <table border=0>
+                <tr>
+                    <td>
+                        <input type="checkbox" ng-model="enableDisableButton">Disable
+                    </td>
+                    <td>
+                        <button ng-disabled="enableDisableButton">Click Me</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" ng-model="showHide1">Show Button
+                    </td>
+                    <td>
+                        <button ng-show="showHide1">Click Me</button>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <input type="checkbox" ng-model="showHide2">Hide Button
+                    </td>
+                    <td>
+                        <button ng-hide="showHide2">Click Me</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Total clicks: {{ clickCounter }}</p>
+                    </td>
+                    <td>
+                        <button ng-click="clickCounter = clickCounter + 1 ">Click Me</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>2 plus 2 equals {{ 2 + 2 }}</p>
+                    </td>
+                </tr>
+            </table>
+            <input type="text" ng-model="name">
+            <input type="text" ng-model="monsterType">
+            <h2>Hello {{ name + " the " + monsterType }} </h2>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </body>
+</html>

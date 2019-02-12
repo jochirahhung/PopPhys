@@ -1,0 +1,10 @@
+extends layout
+
+block vars
+    - var title = 'Home'
+    - var updated = '2/13/17'
+
+block content
+    h1 #{title}
+    h4 updated: #{updated}
+    p This is the home page. By using a layout template, I don't have to created the header, footer, and menu on every pages. I can use insert the content I need. This makes it really easy to add new pages.

@@ -1,0 +1,22 @@
+.ball{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #FF44D1 0%, #ED2754 100%);
+    border-radius: 50px;
+}
+.ball2{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #FF44D1 0%, #ED2754 100%);
+    border-radius: 50px;
+}
+.ball3{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #FF44D1 0%, #ED2754 100%);
+    border-radius: 50px;
+}
+.swatch{
+    width: 100px;
+    height: 100px;
+}

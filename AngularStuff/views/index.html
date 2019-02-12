@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <nav>
+            <a href="#!/">Home</a>
+            <br />
+            <a href="#!vampires">Vampires</a>
+            <br />
+            <a href="#!werewolves">Werewolves</a>
+            <br />
+            <a href="#!zombies">Zombies</a>
+            <br />
+        </nav>
+        <section ng-controller="mainController">
+            <div ng-view></div>
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

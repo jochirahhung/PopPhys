@@ -1,0 +1,4 @@
+{
+    "title": "superNav",
+    "menu": [["Home", "index.html"], ["Contact", "contact.html"], ["About", "about.html"]]
+}

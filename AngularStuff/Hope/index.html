@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div ng-app="myApp">
+            <div ng-controller="mainController">
+                <div ng-repeat="item in nav.navbar">
+                    <a href= '#!{{item.link}}'>{{item.name}}</a>
+                </div>
+                <div ng-view></div>
+                <div class="prev">Prev</div>
+                <div class="next" onclick="nextPage(this)">Next</div>
+            </div>
+            <nav>
+                
+            </nav>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

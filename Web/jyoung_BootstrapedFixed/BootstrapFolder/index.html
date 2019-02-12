@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <!-- Latest compiled and minified JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                  <script src="netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
+                    <script src="netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                    <style>
+                        .navbar-default {
+                            background-color: #b07ac7;
+                            border-color: #8e44ad;
+                        }
+                        .navbar-default .navbar-brand {
+                            color: #ffffff;
+                        }
+                        .navbar-default .navbar-brand:hover,
+                        .navbar-default .navbar-brand:focus {
+                            color: #ecdbff;
+                        }
+                        .navbar-default .navbar-text {
+                          color: #ffffff;
+                        }
+                        .navbar-default .navbar-nav > li > a {
+                          color: #ffffff;
+                        }
+                        .navbar-default .navbar-nav > li > a:hover,
+                        .navbar-default .navbar-nav > li > a:focus {
+                          color: #ecdbff;
+                        }
+                        .navbar-default .navbar-nav > .active > a,
+                        .navbar-default .navbar-nav > .active > a:hover,
+                        .navbar-default .navbar-nav > .active > a:focus {
+                          color: #ecdbff;
+                          background-color: #8e44ad;
+                        }
+                        .navbar-default .navbar-nav > .open > a,
+                        .navbar-default .navbar-nav > .open > a:hover,
+                        .navbar-default .navbar-nav > .open > a:focus {
+                          color: #ecdbff;
+                          background-color: #8e44ad;
+                        }
+                        .navbar-default .navbar-toggle {
+                          border-color: #8e44ad;
+                        }
+                        .navbar-default .navbar-toggle:hover,
+                        .navbar-default .navbar-toggle:focus {
+                          background-color: #8e44ad;
+                        }
+                        .navbar-default .navbar-toggle .icon-bar {
+                          background-color: #ffffff;
+                        }
+                        .navbar-default .navbar-collapse,
+                        .navbar-default .navbar-form {
+                            border-color: #ffffff;
+                        }
+                        .navbar-default .navbar-link {
+                          color: #ffffff;
+                        }
+                        .navbar-default .navbar-link:hover {
+                          color: #ecdbff;
+                        }
+
+                        @media (max-width: 767px) {
+                          .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+                                color: #ffffff;
+                            }
+                          .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+                            .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+                            color: #ecdbff;
+                            }
+                          .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+                          .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+                          .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+                            color: #ecdbff;
+                            background-color: #8e44ad;
+                          }
+                        }
+                    </style>
+                    <script>
+                        $(document).ready(function(){
+                        $('[data-toggle="tooltip"]').tooltip(); 
+                         });
+
+                         $(document).ready(function(){
+                            $('[data-toggle="popover"]').popover(); 
+                        });
+                    </script>
+                    
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hamburger">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" style="color:#ecf0f1">Pizza Party</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="hamburger">
+                        <ul class="nav navbar-nav" style="color: #000000">
+                            <li class="active"><a href="#Home">Home <span class="glyphicon glyphicon-home"></span></a></li>
+                            <li><a href="#About">About <span class="glyphicon glyphicon-info-sign"></span></a></li> 
+                            <li><a href="#Contact">Contact <span class="glyphicon glyphicon-phone-alt"></span></a></li> 
+                            <li><a href="#Progress">Progress <span class="glyphicon glyphicon-usd"></span></a></li>
+                            <li><a href="#BSWD">BSWD <span class="glyphicon glyphicon-education"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>  
+
+             <div id="bestCarousel" class="carousel slide">
+                     <ol class="carousel-indicators">
+                         <li data-target="#bestCarousel" data-slide-to="0" class="active"></li>
+                         <li data-target="#bestCarousel" data-slide-to="1"></li>
+                         <li data-target="#bestCarousel" data-slide-to="2"></li>
+                     </ol>
+
+                     <div class="carousel-inner" role="listbox">
+                         <div class="item active">
+                             <img src=".\media\BigDaddysPizza_Lakewood_CO.png" style="margin:auto">
+                         </div>
+                         
+                         <div class="item">
+                             <img src=".\media\mountaindew002.jpg" style="margin:auto">
+                         </div>
+
+                         <div class="item">
+                             <img src=".\media\the-granddaddy-pizza.jpg" style="margin:auto">
+                         </div>
+                     </div>
+
+                     <a class="left carousel-control" href="#bestCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Go back one</span>
+                    </a>
+                    <a class="right carousel-control" href="#bestCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Go forward one</span>
+                    </a>     
+            </div>
+        <div id="Home" class="container-fluid" style="padding-top:50px; height:auto; background-color:#c0c0c0">
+            
+            <div class="jumbotron"><h2 class="text-left" style="padding-left:50px">Home</h2></div>
+            <div class="row">
+                 <div class="col-lg-12 text-center lead">Welcome to the Pizza Party my dudes!</div>
+                 <p class="lead text-center" style="padding-left: 200px; padding-right: 200px;"><strong>Hello and welcome to the pizza party website, this is the place that will allow you to learn all about what it is, and what will be involved. So come and read through the website, and contact us if you have any questions.</strong></p>
+                 <p class="lead text-center" style="padding-left: 200px; padding-right: 200px;"><strong>This is the site that you will need for everything you would like to know, and if there is more or any suggestions that you would like to give us, send us an email at anytime, we would be glad to answer your questions, or read your suggestions.</strong></p> 
+            </div>
+        </div>
+
+        <div id="About" class="container fluid" style="padding-top:50px; height:auto; background-color:#c0c0c0; width:100%">
+            <div class="jumbotron"><h2 class="text-left" style="padding-left:50px">About</h2>
+            <audio id="GoodJob" src=".\media\emerald_000A.wav"></audio>
+            <button type="button" class="btn btn-primary" onclick="document.getElementById('GoodJob').play()">People: <span class="badge">20000</span></button>
+            </div>
+             <div class="col-lg-12 text-center lead"><img src=".\media\pizza-slice-slice-of-pepperoni-image-sHsCuW-clipart.jpg" class="img-rounded"></div>
+            <div class="row">
+                 <div class="col-lg-12 text-center lead">So you want to know more about this huh, well you have come to the right place then.</div>
+            <p class="lead text-center" style="padding-left: 200px; padding-right: 200px;"><strong>The pizza that we order are tons of big daddy's 26", grand daddy pizza. This will let everyone grab some pizza and fill their bellies to the max.</strong></p>
+            <p class="lead text-center"><strong>There is free food, and drinks, for everyone, and it is a lot of fun. You can come on in, speak with the head of the BSWD and chat with other students 
+                and have just an overall good time. There is nothing that can go wrong with free food, so come on down whenever you see it announced at the end of every quarter!</strong></p>
+            <button type="button" class="btn btn-info btn-lg col-lg-12" data-toggle="modal" data-target="#bestModal">Click here</button>
+            <div id="bestModal" class="modal fade" role="dialog" style="background-color: #c0c0c0;">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">The Information</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>I would highly recommend going to one of these parties, because you get free food and drinks, and you can be social with other web design students, the best degree</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+        <div id="Contact" class="container fluid" style="padding-top:50px; height:auto; background-color:#c0c0c0; width:100%">
+            <div class="jumbotron"><h2 class="text-left" style="padding-left:50px">Contact</h2></div>
+            <div class="row">
+                <div class="col-lg-12 text-center lead">This is the contact portion of the page, this is where you can learn about the BSWD chair, and how to contact him.</div>
+                <div class="well">This is where you can get in contact with the Professor, Tom Beatty, he prefers email, or showing up during office hours.</div>
+                <div class="well">Office Hours: 10:30AM - 11:30Am, Or by appointment. Email: tom.beatty@neumont.edu</div>
+            </div>
+            <div class="theFounder">
+                <div class="media-left">
+                    <img src=".\media\tom2new.png" class="media-object">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><strong>Tom Beatty</strong></h4>
+                        <p class="lead"><strong>I hate comic-sans, never use it in anything!</strong></p>
+                </div>
+            </div>
+            <button type="button" href="#Contact" data-toggle="tooltip" title="I am so sorry" style="border-color:#000;">Comic-Sans are nice!</button>
+            <p class="lead text-center"><strong>But all jokes aside, he is responsible for setting this whole event up.</strong></p>
+        </div>
+
+        <div id="Progress" class="container-fluid" style="padding-top:50px; height:auto; background-color:#c0c0c0; width:100%">
+            <div class="jumbotron"><h2 class="text-left" style="padding-left:50px">Progress</h2></div>
+            <p class="lead text-center">This is where we are with how much money we have for the Pizza party, shown with a handy progress bar.</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100" style="width:90%">90% Complete!!
+                <span class="sr-only">90% Complete</span>
+                </div>
+            </div>
+            <p class="lead text-center">As you can see, we are very close with how much money we need to make the pizza party happen, and with some more time we should have just enought to feed all of the web degree students!</p>
+        </div>
+
+        <div id="BSWD" class="container fluid" style="padding-top:50px; height:auto; background-color:#c0c0c0; width:100%">
+            <div class="jumbotron"><h2 class="text-left" style="padding-left:50px">BSWD</h2></div>
+            <h1 class="text-center">BACHELOR OF SCIENCE IN WEB DESIGN AND DEVELOPMENT</h1>
+            <p class="lead text-center">This is the part of the web page where we will talk about the actual degree, because come on, the pizza is nice, but so is the degree, and this is also how the event happens, is because of the web degree. </p>
+            <div class="col-lg-12 text-center lead"><img src=".\media\webdesign.jpg" class="img-rounded"></div>
+            <center>
+                <button data-toggle="collapse" data-target="#schoolInfo">What does this mean for you?</button>
+                    <div id="schoolInfo"class="collapse">
+                        <strong>You get an awesome job doing what you love.
+                         You get paid a lot.
+                         You will be a rockstar when it comes to scripting!</strong>
+                    </div>
+                <p class="lead text-center">The web degree is a lot of dedication, and hard work, towards what you like to do, and I really enjoy what I do when it comes to scripting and learning about all of the nitty gritty that comes down to it.</p>
+
+            </center>
+            <div class="alert alert-danger alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Success!!</strong> You made it to the end of this website!
+            </div>
+
+            <center>
+            <button type="button" data-toggle="popover" title="Thank you" data-content="Thank you for visiting our website, if you have any questions or concerns, please email us!">Thank you</button>
+             <button type="button" class="btn-info"><a href="#Home" style="color:white">Go back up</a></button>
+            </center>
+        </div>
+    </body>
+</html>

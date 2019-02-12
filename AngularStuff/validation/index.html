@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form ng-app="" name="myForm" ng-init="myText = 'jyoung@student.neumont.edu'">
+            <p>Email: <input type="email" name="myEmail" ng-model="myText" required>
+            <span ng-show="myForm.myEmail.$error.email">Not a valid email address.</span>
+            </p>
+            <h3>Status</h3>
+            <p>Valid: {{myForm.myEmail.$valid}}</p>
+            <p>Dirty: {{myForm.myEmail.$dirty}}</p>
+            <p>Touched: {{myForm.myEmail.$touched}}</p>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </body>
+</html>
