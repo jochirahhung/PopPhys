@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" type="text/css" rel="stylesheet">
+        <link href="bttn.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav>
+            <h1 id="title">PopPhys</h1>
+            <h2 id="title">Teacher Page</h2>
+            <a href="http://localhost:3000/#!/"><button class="bttn-unite bttn-lg bttn-success">Go Back</button></a>
+        </nav>
+        <form action="/sendEmail" method="post">
+            <label for="to">To:</label>
+            <input type="text" name="email">
+        
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject">
+        
+                <label for="body">Body:</label>
+                <textarea cols="50" name="body"></textarea>
+        
+            <button type="submit">Send</button>
+        </form>
+        <ul id="box">
+            <% if (typeof usersArray !== 'undefined' && usersArray.length > 0) {%>
+                <%for (var i = 0; i < usersArray.length; i++) { %>
+                    <% if (usersArray[i].code == "LHSStudent" && session == "LHS2018") { %>
+                            <h2>Name: <%= usersArray[i].name %></h2>
+                            <h2>Description: <%= usersArray[i].description %></h2>
+                            <h2>Email: <%= usersArray[i].email %></h2>
+                            <br />
+                            <br />
+                    <% } %>
+                    <% if (usersArray[i].code == "MHSStudent" && session == "MHS2018") { %>
+                        <h2>Name: <%= usersArray[i].name %></h2>
+                        <h2>Description: <%= usersArray[i].description %></h2>
+                        <h2>Email: <%= usersArray[i].email %></h2>
+                        <br />
+                        <br />
+                    <% } %>
+                    <% if (usersArray[i].code == "NeuStudent" && session == "Neu2018") { %>
+                        <h2>Name: <%= usersArray[i].name %></h2>
+                        <h2>Description: <%= usersArray[i].description %></h2>
+                        <h2>Email: <%= usersArray[i].email %></h2>
+                        <br />
+                        <br />
+                    <% } %>
+                <% } %>
+              <% } %>
+            
+        </ul>
+    </body>
+</html>

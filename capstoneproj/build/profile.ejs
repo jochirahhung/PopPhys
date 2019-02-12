@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" type="text/css" rel="stylesheet">
+        <link href="bttn.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav>
+            <h1 id="title">PopPhys</h1>
+            <h2 id="title">Profile</h2>
+            <a href="http://localhost:3000/#!/"><button class="bttn-unite bttn-lg bttn-success">Go Back</button></a>
+        </nav>
+        <ul id="box">
+            <h1><%=name %></h1>
+            <h1><%=email %></h1>
+            <h2><%=desc %></h2>
+            <form action="/edit" method="post">
+                <label for="body">Edit Description:</label>
+                <textarea cols="50" name="body"></textarea>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <div id="box2">
+                <h1>Badges: </h1>
+                <div id="teacherB">
+                    <% if (teacher == true) { %>
+                        <h2>Teacher:</h2>
+                        <img src="./Badges/Teacher.png" />
+                    <% } %>
+                </div>
+                
+                <div id="badge1">
+                    <h2>CH1: <%=ch1Score %></h2>
+                    <% if (ch1Score >= 12) { %>
+                        <img src="./Badges/Ch1Done.png" />
+                    <% } %>
+                </div>
+                <div id="badge2">
+                    <h2>CH2: <%=ch2Score %></h2>
+                    <% if (ch2Score >= 12) { %>
+                        <img src="./Badges/Ch2Done.png" />
+                    <% } %>
+                </div>
+                
+                <div id="badge3">
+                    <h2>CH3: <%=ch3Score %></h2>
+                    <% if (ch3Score >= 12) { %>
+                        <img src="./Badges/Ch3Done.png" />
+                    <% } %>
+                </div>
+
+                <div id="badge4">
+                    <h2>CH4: <%=ch4Score %></h2>
+                    <% if (ch4Score >= 12) { %>
+                        <img src="./Badges/Ch4Done.png" />
+                    <% } %>
+                </div>
+
+                <div id="badge5">
+                    <h2>CH5: <%=ch5Score %></h2>
+                    <% if (ch5Score >= 12) { %>
+                        <img src="./Badges/Ch5Done.png" />
+                    <% } %>
+                </div>
+
+                <div id="badge6">
+                    <h2>CH6: <%=ch6Score %></h2>
+                    <% if (ch6Score >= 12) { %>
+                        <img src="./Badges/Ch6Done.png" />
+                    <% } %>
+                </div>
+                <div id="badge7">
+                    <h2>CH7: <%=ch7Score %></h2>
+                    <% if (ch7Score >= 12) { %>
+                        <img src="./Badges/Ch7Done.png" />
+                    <% } %>
+                </div>
+                <div id="badge8">
+                    <h2>CH8: <%=ch8Score %></h2>
+                    <% if (ch8Score >= 12) { %>
+                        <img src="./Badges/Ch8Done.png" />
+                    <% } %>
+                </div>
+                <div id="rareB">
+                    <% if (ch1Score == 20 && ch2Score == 20 && ch3Score == 20 && ch4Score == 20 && ch5Score == 20 && ch6Score == 20 && ch7Score == 20 && ch8Score == 20) { %>
+                        <h2>All A's:</h2>
+                        <img src="./Badges/GotAllA's.png" />
+                    <% } %>
+                </div>
+            </div>
+            <br />
+        </ul>
+    </body>
+</html>

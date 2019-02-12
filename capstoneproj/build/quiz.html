@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="style.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" type="text/css" rel="stylesheet">
+            <link href="bttn.min.css" rel="stylesheet"/>
+    </head>
+    <nav>
+        <h1 id="title">PopPhys</h1>
+        <a href="http://localhost:3000/#!/"><button class="bttn-unite bttn-lg bttn-success">Go Back</button></a>
+    </nav>
+    <div id="box">
+        <p>Please select a quiz from the list below:</p>
+            <button class="accordion2" id="title">Chapter 1 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz1" method="post">
+                    <label>Motion is one of the key topics in ________</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>The physics of motion is all about _________</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>A measure of how much the velocity of an object changes in a certain time is called what??</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>The amount of something there is, and is measured in grams is called what?</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>An object at rest, tends to stay at rest, which law is this??</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>That the acceleration of an object produced by a net (total) applied force is directly related to the magnitude of the force, the same direction as the force, and inversely related to the mass of the object, which law is this?</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>That for every action (force) there is an equal and opposite reaction (force), which law is this?</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>Anything that is ______ can store energy</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>The first thing that gases can do is _______</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>The second thing gases can do is _________</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 2 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz2" method="post">
+                    <label>What does Velocity equals distance divided by ______</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>Velocity is a rate of ______ in a specific direction</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>Instantaneous velocity measures one moment in what?</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>Another word for the term instantaneous is what?</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>Acceleration is also a ______</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>Momentum is equal to mass multiplied by the _______</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>Friction can only happen with what kind of objects?</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>If you have a high coefficient of friction you have lots, or less friction</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>Gravity pulls objects towards the center of the _______</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>Work transfers ______ from one object to another</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 3 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz3" method="post">
+                    <label>________ is a situation where the heat source and heat sink are connected by matter</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>Getting Hotter = Getting ________</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>What is the way to make heat by rubbing two objects together?</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>Heat is also created because of ________</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>Specific Heat Capacity is the amount of energy required to raise the temperature of one gram of a substance by one degree _______</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>______ is the classic English system of measuring temperatures</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>Water freezes at __ degrees</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>Kelvin is used mostly in what?</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>What kind of degrees are larger than Farenheit</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>There are thermometers to measure your body temperature, the temperature in your oven, and even the temperature of liquid ______</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 4 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz4" method="post">
+                    <label>The what law?</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>The first type of thermodynamic system</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>The second type of thermodynamic system</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>The third type of thermodynamic system</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>The fourth type of thermodynamic system</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>Heat can only flow from hot areas to ______</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>A measure of heat in the system</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>A measure of the random activity in a system</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>________ means that effects can be reversed</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>The more disorder you have, the more ______ there is</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 5 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz5" method="post">
+                    <label>What kind of light can we see?</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>What is the abbreviation for electromagnetic radiation</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>The key thing to remember is that light and EM radiation carry ______</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>All EM energy waves travel at the speed of _______</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>The abbreviation for all of the colors in the visible spectrum</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>Prisms are a very special type of ____</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>UV light is given off by the Sun and absorbed by _____ in the atmosphere</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>Red has the longest wavelength and _____ has the shortest</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>Dogs only see things in black, white and ____</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>Visible light is near the ______ of the spectrum</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 6 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz6" method="post">
+                    <label>The amount of the charge is the same for each _____, but opposite in sign</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>The belt of a van de graff generator deposits ______ charges</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>What is one way to seperate a charge?</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>What is a traditional conducting material</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>If the current goes in one direction all the time, it is called what</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>charges move back and forth, so this is called what</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>_______ and electricity are always connected</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>______ move towards a positive charge and away from a negative charge</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>What is a conductor that is not metal</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>What is the metallic conductor with the symbol Au</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 7 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz7" method="post">
+                    <label>Michael Faraday was an English physicist working in the early _____</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>Coulomb's Law is one of the basic ideas of _______ in physics</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>Charges that are closer together create greater ______</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>An object or a device that gives off an external magnetic field</label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>What is the electric wiring in your house</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>Most countries use AC frequencies at either 50 ______ or 60 _______. </label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>What is the type of power used all over the world</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>Charles Augustin de Coulomb was a French scientist working in the late _______</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>In English: the amount of voltage created is equal to the change in ________ flux divided by the change in time</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>The collisions between electrons and atoms in a conductor cause _________ to the flow of charge. </label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            
+            <button class="accordion2" id="title">Chapter 8 Quiz</button>
+            <div class="panel2">
+                <form action="/quiz8" method="post">
+                    <label>In the early 1800's, scientists began examining the basis of matter, ____, and time</label>
+                    <br />
+                    <input type="text" name="q1" />
+                    <br />
+                    <label>Albert Einstein developed formulas that described the way ______ and energy were related</label>
+                    <br />
+                    <input type="text" name="q2" />
+                    <br />
+                    <label>______ forces hold all of the pieces together</label>
+                    <br />
+                    <input type="text" name="q3" />
+                    <br />
+                    <label>______ reactions create much of the energy given off by the Sun. </label>
+                    <br />
+                    <input type="text" name="q4" />
+                    <br />
+                    <label>The radioactive isotope of carbon is called what?</label>
+                    <br />
+                    <input type="text" name="q5" />
+                    <br />
+                    <label>Radioactivity hurts what in living organisms</label>
+                    <br />
+                    <input type="text" name="q6" />
+                    <br />
+                    <label>A chain reaction that keeps getting bigger is called an _________ chain</label>
+                    <br />
+                    <input type="text" name="q7" />
+                    <br />
+                    <label>Researchers use an isotope of uranium called uranium ___</label>
+                    <br />
+                    <input type="text" name="q8" />
+                    <br />
+                    <label>The half-life of uranium-238 is ________ years</label>
+                    <br />
+                    <input type="text" name="q9" />
+                    <br />
+                    <label>The ________ condensate was theorized decades ago, but scientists have only recently been able to create it in a lab</label>
+                    <br />
+                    <input type="text" name="q10" />
+                    <br />
+                    <button type="submit">Submit!</button>
+                </form>
+            </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion2");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+            
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                        } else {
+                            panel.style.display = "block";
+                        }
+                    });
+                }  
+            </script>
+        </div>
+    </body>
+</html>

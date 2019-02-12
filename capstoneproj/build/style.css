@@ -1,0 +1,359 @@
+.ball, .ball3{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom, #FF44D1 0%, #ED2754 100%);
+    border-radius: 50px;
+}
+
+.boxTest{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, #FF44D1 0%, #ED2754 100%);
+}
+
+.accordion {
+    background-color: #EDF5E1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #379683;
+    margin: auto;
+}
+
+.active, .accordion:hover {
+    background-color: #379683;
+}
+
+.accordion2 {
+    background-color: #EDF5E1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #379683;
+    margin: auto;
+}
+
+.active, .accordion2:hover {
+    background-color: #379683;
+}
+
+.panel {
+    background-color: #05386B;
+    padding: 0 18px;
+    color: white;
+    display: none;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.panel2 {
+    background-color: #05386B;
+    padding: 0 18px;
+    color: white;
+    display: none;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#badge1, #badge2, #badge3, #badge4, #badge5, #badge6, #badge7, #badge8, #teacherB, #rareB {
+    float: left;
+    padding-left: 80px;
+    font-size: 25px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+nav{
+    background-color: #EDF5E1;
+    width: 98%;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#login{
+    background-color: #EDF5E1;
+    width: 98%;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#trueBod{
+    text-align: center;
+}
+
+#hide{
+    color: #EDF5E1;
+}
+
+#title{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+}
+
+#box{
+    width: 90%;
+    background-color: #8EE4AF;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#box2{
+    width: 90%;
+    height: 500px;
+    background-color: #8EE4AF;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, #body{
+    background-color: #5CDB95;
+    font-family: "Arial Black";
+    font-size: 25px;
+    text-align: center;
+}
+
+#codeText{
+    padding: 50px;
+}
+
+
+#chapter1{
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    font-size: 25px;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chapter2{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chapter3{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chapter4{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chapter5{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+#chapter6{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chapter7{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#chapter8{
+    font-size: 25px;
+    background-color: #05386B;
+    color: #EDF5E1;
+    width: 95%;
+    margin: auto;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #379683;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dropbtn {
+    background-color: rgb(238, 81, 217);
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(231, 46, 185);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:  none;
+    position: relative;
+    background-color: #EDF5E1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.show {display:block;}
+
+#drop, #drop2, #drop3, #drop4, #drop5, #drop6, #drop7, #drop8{
+    text-align: center;
+}
+
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+.btn-group button {
+    background-color: #379683; 
+    border: 1px solid green; 
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #EDF5E1;
+    color: black;
+}
+
+.guides{
+    text-align: center;
+    margin: auto;
+}
